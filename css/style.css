@@ -1,0 +1,63 @@
+.container{
+    max-width: 1110px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    column-gap: 130px;
+}
+.left-div{
+    width: 490px;
+     display: flex;
+  flex-direction: column;
+  gap: 24px; 
+   
+}
+.action-bg{
+    width: 100px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.action-descr{
+    width: 236px;
+}
+.small-box{
+    display: flex;
+    gap: 16px 20px
+
+}
+.left-div h2{
+  font-size: 56px;
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.left-div > p{
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 400px; /* რომ ტექსტი ძალიან არ გაიწელოს */
+  font-weight: 400;
+}
+.small-box{
+  display:flex;
+  align-items:center;
+  gap: 20px;   
+}
+
+.action-descr{
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 260px;
+}
+.right-div{
+    width: 490px;
+}
+
+.picture-img{
+    width: 100%;
+}
